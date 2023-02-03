@@ -20,3 +20,12 @@ Disclaimer: I'm not a programmer of any kind. The goal of this project is to cre
     ```
 5. If your folder name is different, you can pass it as an input string, i.e. type *pics*
 The path is relative only at the moment.
+
+## What file does it process?
+	Images:
+	.jpg
+	.jpeg
+	.dng
+
+	Video:
+	.mov
