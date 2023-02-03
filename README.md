@@ -2,6 +2,20 @@
 
 > Disclaimer: I'm not a programmer of any kind. The goal of this project is to create a photosorting python script using ChatGPT.
 
+
+## What it does?
+
+Simply organizing bunch of media files that were uploaded to Dropbox from my iPhone.
+
+Here's before:
+![Before](https://i.imgur.com/AQhBOOO.png)
+
+Here's after:
+![After](https://i.imgur.com/BZNkav8.png)
+
+**All files unable to sort stay untouched**
+
+
 ## How to use?
 
 **Assumptions**: brew and pip are installed
