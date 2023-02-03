@@ -18,4 +18,5 @@ Disclaimer: I'm not a programmer of any kind. The goal of this project is to cre
     ```
     >>> python3 sorting.py
     ```
-5. If your folder name is different, you can pass it as an input string. The path is relative only at the moment.
+5. If your folder name is different, you can pass it as an input string, i.e. type *pics*
+The path is relative only at the moment.
