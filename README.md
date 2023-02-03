@@ -1,8 +1,10 @@
-# photosorting
+## Media Sorting Script
 
-Disclaimer: I'm not a programmer of any kind. The goal of this project is to create a photosorting python script using ChatGPT.
+> Disclaimer: I'm not a programmer of any kind. The goal of this project is to create a photosorting python script using ChatGPT.
 
 ## How to use?
+
+**Assumptions**: brew and pip are installed
 
 1. Clone it to your host
 2. Install `ffmpeg` via Brew:
@@ -13,6 +15,7 @@ Disclaimer: I'm not a programmer of any kind. The goal of this project is to cre
     ```
     >>> virtualenv photoSort
     >>> source photoSort/bin/activate
+    >>> pip install -r requirements
     ```
 4. To run the script over sample media files, launch it and press Enter without typing anything:
     ```
@@ -22,10 +25,16 @@ Disclaimer: I'm not a programmer of any kind. The goal of this project is to cre
 The path is relative only at the moment.
 
 ## What file does it process?
-	Images:
-	.jpg
-	.jpeg
-	.dng
+Images:
+- .jpg
+- .jpeg
+- .dng
 
-	Video:
-	.mov
+Video:
+- .mov
+
+
+## To do:
+- normalize extensions
+- add mp4
+- find out why is it so slow (except bcs it's python)
